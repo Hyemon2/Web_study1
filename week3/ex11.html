@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex11.css">
+    <title>동아리 회원 가입</title>
+</head>
+<body>
+    <table border="1">
+        <th colspan="2">동아리 회원 가입</th>
+        <tr>
+            <td id="firstcolor"><strong>아이디</strong></td>
+            <td><input type="text" placeholder="아이디를 입력하세요"></td>
+        </tr>
+        <tr>
+            <td class = "secondcolor"><strong>패스워드</strong></td>
+            <td><input type="password" placeholder="패스워드를 입력하세요"></td>
+        </tr>
+        <tr>
+            <td id="firstcolor"><strong>메일주소</strong></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td class = "secondcolor"><strong>연락처</strong></td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td id="firstcolor"><strong>학년</strong></td>
+            <td><input type="number" value="1" min="1"> 학년</td>
+        </tr>
+        <tr>
+            <td class = "secondcolor"><strong>학기</strong></td>
+            <td>
+                <label><input type="radio" name="semester" value="1학기"> 1학기</label>
+                <label><input type="radio" name="semester" value="2학기"> 2학기</label>
+                <label><input type="radio" name="semester" value="계절학기"> 계절학기</label>
+            </td>
+        </tr>
+        <tr>
+            <td id="firstcolor"><strong>전공</strong></td>
+            <td>
+                <select>
+                    <option value="빅데이터">빅데이터</option>
+                    <option value="콘텐츠IT">콘텐츠IT</option>
+                    <option value="스마트iot">스마트iot</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td class = "secondcolor"><strong>관심분야</strong></td>
+            <td>
+                <label><input type="checkbox" value="1" checked> 프런트엔드</label>
+                <label><input type="checkbox" value="2"> 백엔드</label>
+                <label><input type="checkbox" value="3"> 풀스택</label>
+                <label><input type="checkbox" value="4"> 프레임워크</label>
+            </td>
+        </tr>
+        <tr>
+            <td id="firstcolor"><strong>자기소개서</strong></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td class = "secondcolor"><strong>생년월일</strong></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <input type="submit" value="가입">
+                <input type="reset" value="재작성">
+            </th>
+        </tr>
+    </table>
+</body>
+</html>

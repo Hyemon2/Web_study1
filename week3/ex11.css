@@ -1,0 +1,21 @@
+th {
+    background-color: rgb(255, 212, 167);    
+}
+tr{
+    background-color: rgb(255, 248, 219);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    background-color : rgb(255, 243, 136);
+
+}
+
+ #firstcolor {
+    background-color: rgb(136, 255, 215);
+ }
+ .secondcolor {
+    background-color: rgb(255, 136, 136);
+ }
