@@ -1,0 +1,33 @@
+table {
+    width: 400px;
+    height: 150px;
+}
+
+th, td {
+    border-radius: solid rgb(255, 255, 255);
+    padding: 1px;
+}
+
+thead tr:first-child {
+    background-color: aqua;
+    color:black; 
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(68, 75, 141);
+    color : rgb(256,256,256);
+}
+
+tr:nth-child(odd):hover {
+    background-color: rgb(252, 181, 181);
+    color: rgb(133, 55, 55);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(243, 224, 171); /* 짝수 행 기본 색상 */
+}
+
+tr:nth-child(even):hover {
+    background-color: rgb(59, 126, 81); /* 짝수 행 마우스 올렸을 때 색상 */
+    color: rgb(255, 255, 255);
+}

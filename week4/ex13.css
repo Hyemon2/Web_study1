@@ -1,0 +1,25 @@
+.box {
+    width : 300px;
+    height: 200px;
+    margin : 10px;
+}
+.position {
+    background-color: bisque;
+}
+.pseudo {
+    background-color: lightgreen;
+}
+
+/* 마우스를 올렸을 때 배경색 변경 */
+input[type="text"]:focus {
+    background-color: orange; /* 오렌지색으로 변경 */
+    border-color : black;
+
+}
+
+.pseudo span {
+    color: lightgreen; /* 처음에는 안 보이도록 설정 */
+}
+.pseudo p:hover span {
+    color: red;
+}

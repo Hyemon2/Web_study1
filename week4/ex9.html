@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a 태그 스타일</title>
+    <style>
+        /* 기본 스타일 */
+        a {
+            font-size: 1.5em;  /* 부모 요소의 1.5배 크기 */
+            text-decoration: none; /* 밑줄 제거 */
+        }
+
+        /* 짝수 번째 a 태그 색상 */
+        li:nth-child(even) a {
+            color: green;
+        }
+
+        /* 홀수 번째 a 태그 색상 */
+        li:nth-child(odd) a {
+            color: orange;
+        }
+
+        /* 짝수 번째 li 요소에 마우스 올렸을 때 */
+        li:nth-child(even):hover {
+            background-color: salmon;
+        }
+
+        /* 홀수 번째 li 요소에 마우스 올렸을 때 */
+        li:nth-child(odd):hover {
+            background-color: lightblue;
+        }
+
+        /* hover 시 a 태그 글자색은 흰색 */
+        li:hover a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">a 태그</a></li>
+        <li><a href="#">a 태그</a></li>
+        <li><a href="#">a 태그</a></li>
+        <li><a href="#">a 태그</a></li>
+        <li><a href="#">a 태그</a></li>
+    </ul>
+</body>
+</html>

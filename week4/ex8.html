@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* 조합 선택자: div 요소 내부의 모든 p 요소 선택 */
+        div p {
+            margin-bottom: 10px;
+        }
+
+        /* 구조 선택자: div 요소의 첫 번째 자식 p 요소 선택 */
+        div p:first-child {
+            font-weight: bold;
+        }
+
+        /* 구조 선택자: div 요소의 마지막 자식 p 요소 선택 */
+        div p:last-child {
+            color: blue;
+        }
+
+        /* 가상 선택자: p 요소에 마우스 호버 시 스타일 변경 */
+        p:hover {
+            background-color: lightgray;
+            cursor: pointer;
+        }
+
+        /* 구조 선택자: p 요소 중 짝수 번째 요소 선택 */
+        div p:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+        /* 박스 스타일 */
+        div {
+            width: 300px;
+            border: 1px solid black;
+            padding: 20px;
+            margin: 20px auto;
+        }
+
+        p {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <p>첫 번째 단락입니다.</p>
+        <p>두 번째 단락입니다.</p>
+        <p>세 번째 단락입니다.</p>
+        <p>네 번째 단락입니다.</p>
+        <p>마지막 단락입니다.</p>
+    </div>
+
+</body>
+
+</html>

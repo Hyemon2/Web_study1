@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            height: 100px;
+            text-align: center;
+            font-size: 16px;
+            color: white;
+            margin :10px;
+            padding :20px;
+            border-radius: 5px;
+        }
+
+        .box1 { background-color: rgb(255, 82, 82); width: 200px;
+        height : 150px; }
+        .box2{ background-color: rgb(75, 138, 255); width: 250px;
+            height :  200px}
+        .box3 { background-color: rgb(42, 192, 42); width: 300px;
+            height : 250px }
+
+        input[type="checkbox"]:checked + .box {
+            background-color: lightgray;
+            font-size: 35px;
+            color: black;
+            border: 3px dashed black;
+            font-weight: bold;
+        }
+ 
+    </style>
+</head>
+<body>
+    <body>
+        <label>첫번째 박스 클릭</label>
+        <input type="checkbox">
+        <div class="box box1">박스 1</div>
+        <label>두번째 박스 클릭</label>
+        <input type="checkbox">
+        <div class="box box2">박스 2</div>
+        <label>세번째 박스 클릭</label>
+        <input type="checkbox">
+        <div class="box box3">박스 3</div>
+      </body>
+</body>
+</html>
